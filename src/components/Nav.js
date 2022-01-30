@@ -6,22 +6,22 @@ export default function Nav() {
     <nav>
       <ul>
         <li>
-          <Link href="/">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link href="/skills">Things I'm good at</Link>
+          <Link to="/skills">Things I'm good at</Link>
         </li>
         <li>
-          <Link href="/talks">Talks</Link>
+          <Link to="/talks">Talks</Link>
         </li>
         <li>
-          <Link href="/articles">Articles</Link>
+          <Link to="/articles">Articles</Link>
         </li>
         <li>
-          <Link href="/writing">Writing samples</Link>
+          <Link to="/writing">Writing samples</Link>
         </li>
         <li>
-          <Link href="/projects">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
       </ul>
     </nav>
