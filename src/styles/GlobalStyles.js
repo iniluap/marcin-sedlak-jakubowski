@@ -4,6 +4,7 @@ const GlobalStyles = createGlobalStyle`
   :root {
     --black: #231f20;
     --grey: #eaeaea;
+    --dark-grey: #7a7575;
     --white: #fff;
     --teal: #1aa687;
     --red: #ff414d;
@@ -18,11 +19,17 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
   }
+
+  body {
+    height: 100vh;
+  }
   
   main {
-    max-width: 2000px;
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 4vw;
+    padding: 4vw 4vw 2vw;
     overflow-x: hidden;
   }
 

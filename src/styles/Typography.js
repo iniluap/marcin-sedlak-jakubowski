@@ -9,7 +9,7 @@ const Typography = createGlobalStyle`
     letter-spacing: 0.1rem;
   }
 
-  h1,h2,h3,h4,h5,h6 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Zen Kurenaido', sans-serif;
     font-weight: normal;
     margin: 0;
@@ -18,6 +18,7 @@ const Typography = createGlobalStyle`
   a {
     color: var(--black);
     text-decoration-color: var(--red);
+    text-decoration-thickness: 0.2rem;
   }
 
   .center {
