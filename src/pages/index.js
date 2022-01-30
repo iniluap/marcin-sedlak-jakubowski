@@ -3,7 +3,7 @@ import React from 'react';
 export default function IndexPage() {
   return (
     <>
-      <h1>Marcin Sędłak-Jakubowski</h1>
+      <h1>Marcin Sedlak-Jakubowski</h1>
       <h2>WORD GEEK, TECHNOLOGIST, AND BELIEVER IN HUMANS</h2>
       <article>
         <p>
