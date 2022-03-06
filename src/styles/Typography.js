@@ -24,6 +24,10 @@ const Typography = createGlobalStyle`
   .center {
     text-align: center;
   }
+
+  p {
+    font-size: 1.4rem;
+  }
 `;
 
 export default Typography;

@@ -1,141 +1,116 @@
 import React from 'react';
+import styled from 'styled-components';
 import SectionHeader from '../components/SectionHeader';
+import Card from '../components/Card';
+
+const WritingStyles = styled.div`
+  .card-wrapper {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+
+    section:first-child {
+      grid-column: 1 / span 2;
+    }
+  }
+`;
 
 export default function WritingPage() {
   return (
-    <>
+    <WritingStyles>
       <SectionHeader sectionTitle="Writing samples" />
-      <h2>
+      <p>
         These are examples of how I use words as a Technical Writer. Use these
         when trying to recruit me. The PDFs show the content as it was at the
         time of writing.
-      </h2>
-      <section>
-        <h3>MICROSTRATEGY CLOUD PLATFORM DOCUMENTATION</h3>
-        <h4>END-USER DOCS: INFRASTRUCTURE</h4>
-        <p>2019</p>
-        <p>
-          This page describes the features and infrastructure of each cloud
-          offering within the{' '}
-          <a href="https://www.microstrategy.com/">MicroStrategy</a> Cloud
-          Platform. The descriptions are visibly divided in style and
-          specificity – starting with more high-level business blurbs followed
-          by technical details and infrastructure diagrams (prepared by a
-          graphic designer) hidden behind expandable sections.
-        </p>
-        <div>
-          <ul>
-            <li>
-              <a href="https://marcin.s-j.me/media/2019-MicroStrategy-Cloud-Platform-(How-to-Select-the-Right-Environment).pdf">
-                PDF (sample)
-              </a>
-            </li>
-            <li>
-              <a href="https://www2.microstrategy.com/producthelp/Current/Cloud/en-us/Content/select_environ_type.htm">
-                Live version
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      </p>
 
-      <section>
-        <h3>MICROSTRATEGY CLOUD PLATFORM DOCUMENTATION</h3>
-        <h4>END-USER DOCS: PROCEDURE</h4>
-        <p>2019</p>
-        <p>
-          This page provides two simple procedures for starting and stopping a
-          cloud environment.
-        </p>
-        <div>
-          <ul>
-            <li>
-              <a href="https://marcin.s-j.me/media/2019-MicroStrategy-Cloud-Platform-(How-to-Start-or-Stop-an-Environment).pdf">
-                PDF
-              </a>
-            </li>
-            <li>
-              <a href="https://www2.microstrategy.com/producthelp/Current/Cloud/en-us/Content/start_stop_environ.htm">
-                Live version
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <div className="card-wrapper">
+        <Card
+          title="MicroStrategy Cloud Platform documentation"
+          subtitle="End-user docs: infrastructure"
+          date="2019"
+          content={
+            <>
+              This page describes the features and infrastructure of each cloud
+              offering within the{' '}
+              <a href="https://www.microstrategy.com/">MicroStrategy</a> Cloud
+              Platform. The descriptions are visibly divided in style and
+              specificity – starting with more high-level business blurbs
+              followed by technical details and infrastructure diagrams
+              (prepared by a graphic designer) hidden behind expandable
+              sections.
+            </>
+          }
+          link1Url="https://marcin.s-j.me/media/2019-MicroStrategy-Cloud-Platform-(How-to-Select-the-Right-Environment).pdf"
+          link1="PDF (sample)"
+          link2Url="https://www2.microstrategy.com/producthelp/Current/Cloud/en-us/Content/select_environ_type.htm"
+          link2="Live version"
+        ></Card>
 
-      <section>
-        <h3>STRAAL DOCUMENTATION</h3>
-        <h4>END-USER DOCS</h4>
-        <p>2017</p>
-        <p>
-          While working at <a href="https://straal.com/pl/">Straal</a>, I
-          created their end-user documentation from scratch. It contains a mix
-          of explanations of how the card payment ecosystem works, and how to
-          use Straal services. It combines high‑level business narrative, while
-          remaining down‑to‑earth, like end‑user documentation should.
-        </p>
-        <div>
-          <ul>
-            <li>
-              <a href="https://marcin.s-j.me/media/2017-Straal-Documentation-(Payment-Methods).pdf">
-                PDF (sample)
-              </a>
-            </li>
-            <li>
-              <a href="https://docs.straal.com/">Live version</a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        <Card
+          title="MicroStrategy Cloud Platform documentation"
+          subtitle="End-user docs: procedure"
+          date="2019"
+          content="This page provides two simple procedures for starting and stopping a
+            cloud environment."
+          link1Url="https://marcin.s-j.me/media/2019-MicroStrategy-Cloud-Platform-(How-to-Start-or-Stop-an-Environment).pdf"
+          link1="PDF"
+          link2Url="https://www2.microstrategy.com/producthelp/Current/Cloud/en-us/Content/start_stop_environ.htm"
+          link2="Live version"
+        ></Card>
 
-      <section>
-        <h3>STRAAL DOCUMENTATION</h3>
-        <h4>API REFERENCE</h4>
-        <p>2017</p>
-        <p>
-          While working at <a href="https://straal.com/pl/">Straal</a>, I also
-          updated and streamlined their existing API Reference. This document is
-          highly technical and centered around the API endpoints and request
-          workloads served by this API.
-        </p>
-        <div>
-          <ul>
-            <li>
-              <a href="https://marcin.s-j.me/media/2017-Straal-API-Reference-sample.pdf">
-                PDF (sample)
-              </a>
-            </li>
-            <li>
-              <a href="https://api-reference.straal.com/">Live version</a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        <Card
+          title="Straal documentation"
+          subtitle="End-user docs"
+          date="2017"
+          content={
+            <>
+              While working at <a href="https://straal.com/pl/">Straal</a>, I
+              created their end-user documentation from scratch. It contains a
+              mix of explanations of how the card payment ecosystem works, and
+              how to use Straal services. It combines high‑level business
+              narrative, while remaining down‑to‑earth, like end‑user
+              documentation should.
+            </>
+          }
+          link1Url="https://marcin.s-j.me/media/2017-Straal-Documentation-(Payment-Methods).pdf"
+          link1="PDF (sample)"
+          link2Url="https://docs.straal.com/"
+          link2="Live version"
+        ></Card>
 
-      <section>
-        <h3>BENERATOR CUMBERPY</h3>
-        <h4>README</h4>
-        <p>2017</p>
-        <p>
-          This is a README of my silly Python package. I wrote it in
-          reStructuredText, because it works better than Markdown when uploading
-          packages to the Python Package Index.
-        </p>
-        <div>
-          <ul>
-            <li>
-              <a href="https://marcin.s-j.me/media/2017-benerator-cumberpy-README.pdf">
-                PDF
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/fdmarcin/benerator-cumberpy/blob/master/README.rst">
-                Live version
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </>
+        <Card
+          title="Straal documentation"
+          subtitle="API reference"
+          date="2017"
+          content={
+            <>
+              While working at <a href="https://straal.com/pl/">Straal</a>, I
+              also updated and streamlined their existing API Reference. This
+              document is highly technical and centered around the API endpoints
+              and request workloads served by this API.
+            </>
+          }
+          link1Url="https://marcin.s-j.me/media/2017-Straal-API-Reference-sample.pdf"
+          link1="PDF (sample)"
+          link2Url="https://api-reference.straal.com/"
+          link2="Live version"
+        ></Card>
+
+        <Card
+          title="Benerator Cumberpy"
+          subtitle="readme"
+          date="2017"
+          content="This is a README of my silly Python package. I wrote it in
+            reStructuredText, because it works better than Markdown when uploading
+            packages to the Python Package Index."
+          link1Url="https://marcin.s-j.me/media/2017-benerator-cumberpy-README.pdf"
+          link1="PDF"
+          link2Url="https://github.com/fdmarcin/benerator-cumberpy/blob/master/README.rst"
+          link2="Live version"
+        ></Card>
+      </div>
+    </WritingStyles>
   );
 }

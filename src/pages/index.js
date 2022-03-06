@@ -44,7 +44,7 @@ export default function IndexPage() {
             <a href="https://twitter.com/manualcookie">Twitter</a>
           </li>
           <li>
-            <a href="https://gitlab.com/marcinsedlakjakubowski">GitLab</a>
+            <a href="https://gitlab.com/msedlakjakubowski">GitLab</a>
           </li>
           <li>
             <a href="https://github.com/fdmarcin">GitHub</a>
