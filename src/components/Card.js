@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ResourceLinks from './ResourceLinks';
 
 const CardStyles = styled.section`
   border-bottom: 2px solid var(--blue);
@@ -37,18 +38,12 @@ export default function Card({
       <h4>{subtitle}</h4>
       <p class="date">{date}</p>
       <p>{content}</p>
-      <div>
-        <ul>
-          <li>
-            <a href={link1Url}>{link1}</a>
-          </li>
-          {link2 && (
-            <li>
-              <a href={link2Url}>{link2}</a>
-            </li>
-          )}
-        </ul>
-      </div>
+      <ResourceLinks
+        link1Url={link1Url}
+        link1={link1}
+        link2Url={link2Url}
+        link2={link2}
+      ></ResourceLinks>
     </CardStyles>
   );
 }

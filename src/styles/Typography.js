@@ -16,9 +16,13 @@ const Typography = createGlobalStyle`
   }
 
   a {
-    color: var(--black);
-    text-decoration-color: var(--red);
+    color: var(--dark-grey);
+    text-decoration-color: var(--teal);
     text-decoration-thickness: 0.2rem;
+
+    &:hover {
+      color: var(--black);
+    }
   }
 
   .center {
@@ -27,6 +31,7 @@ const Typography = createGlobalStyle`
 
   p {
     font-size: 1.4rem;
+    line-height: 1.7;
   }
 `;
 
