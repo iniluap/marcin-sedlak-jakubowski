@@ -18,12 +18,12 @@ const WritingStyles = styled.div`
 export default function WritingPage() {
   return (
     <WritingStyles>
-      <SectionHeader sectionTitle="Writing samples" />
-      <p>
-        These are examples of how I use words as a Technical Writer. Use these
-        when trying to recruit me. The PDFs show the content as it was at the
-        time of writing.
-      </p>
+      <SectionHeader
+        sectionTitle="Writing samples"
+        sectionLead="These are examples of how I use words as a Technical Writer. Use these
+      when trying to recruit me. The PDFs show the content as it was at the
+      time of writing."
+      />
 
       <div className="card-wrapper">
         <Card
