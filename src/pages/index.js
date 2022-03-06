@@ -11,20 +11,26 @@ export default function IndexPage() {
         I got my education in teaching English as a foreign language, and worked
         as an English teacher for five years. Since 2017 I've worked as a
         Technical Writer (currently at{' '}
-        <a href="https://about.gitlab.com/">GitLab</a>), creating online
-        documentation for software.
+        <a href="https://about.gitlab.com/" target="_blank">
+          documentation for software.
+        </a>
       </p>
       <p>
         In the meantime, I've volunteered at a non-profit, where I organized
         youth camps and weekend workshops, leading educational exercises on
         human rights, diversity, sustainable development, and peaceful conflict
         resolution. I've also co‑organized{' '}
-        <a href="https://www.pylight.org/">PyLight Waw</a>, a beginner‑friendly
-        Python meetup and have given talks on software documentation.
+        <a href="https://www.pylight.org/" target="_blank">
+          PyLight Waw
+        </a>
+        , a beginner‑friendly Python meetup and have given talks on software
+        documentation.
       </p>
       <p>
         No matter my future job title, I'm a{' '}
-        <a href="https://www.writethedocs.org/documentarians/">documentarian</a>
+        <a href="https://www.writethedocs.org/documentarians/" target="_blank">
+          documentarian
+        </a>
         , a person who cares about documentation and communication in the
         software industry. I'd like to learn more about software UX and
         designing experiences in general.

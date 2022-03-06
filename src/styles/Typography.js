@@ -5,7 +5,7 @@ const Typography = createGlobalStyle`
     color: var(--black);
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
-    line-height: 1.4;
+    line-height: 1.7;
     letter-spacing: 0.1rem;
   }
 
@@ -13,6 +13,7 @@ const Typography = createGlobalStyle`
     font-family: 'Zen Kurenaido', sans-serif;
     font-weight: normal;
     margin: 0;
+    line-height: 1.5;
   }
 
   a {
@@ -31,7 +32,6 @@ const Typography = createGlobalStyle`
 
   p {
     font-size: 1.4rem;
-    line-height: 1.7;
   }
 `;
 

@@ -34,8 +34,10 @@ export default function WritingPage() {
             <>
               This page describes the features and infrastructure of each cloud
               offering within the{' '}
-              <a href="https://www.microstrategy.com/">MicroStrategy</a> Cloud
-              Platform. The descriptions are visibly divided in style and
+              <a href="https://www.microstrategy.com/" target="_blank">
+                MicroStrategy
+              </a>{' '}
+              Cloud Platform. The descriptions are visibly divided in style and
               specificity – starting with more high-level business blurbs
               followed by technical details and infrastructure diagrams
               (prepared by a graphic designer) hidden behind expandable
@@ -66,9 +68,12 @@ export default function WritingPage() {
           date="2017"
           content={
             <>
-              While working at <a href="https://straal.com/pl/">Straal</a>, I
-              created their end-user documentation from scratch. It contains a
-              mix of explanations of how the card payment ecosystem works, and
+              While working at{' '}
+              <a href="https://straal.com/pl/" target="_blank">
+                Straal
+              </a>
+              , I created their end-user documentation from scratch. It contains
+              a mix of explanations of how the card payment ecosystem works, and
               how to use Straal services. It combines high‑level business
               narrative, while remaining down‑to‑earth, like end‑user
               documentation should.
@@ -86,10 +91,13 @@ export default function WritingPage() {
           date="2017"
           content={
             <>
-              While working at <a href="https://straal.com/pl/">Straal</a>, I
-              also updated and streamlined their existing API Reference. This
-              document is highly technical and centered around the API endpoints
-              and request workloads served by this API.
+              While working at{' '}
+              <a href="https://straal.com/pl/" target="_blank">
+                Straal
+              </a>
+              , I also updated and streamlined their existing API Reference.
+              This document is highly technical and centered around the API
+              endpoints and request workloads served by this API.
             </>
           }
           link1Url="https://marcin.s-j.me/media/2017-Straal-API-Reference-sample.pdf"
