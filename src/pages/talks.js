@@ -1,9 +1,10 @@
 import React from 'react';
+import SectionHeader from '../components/SectionHeader';
 
 export default function TalksPage() {
   return (
     <>
-      <h1>Talks</h1>
+      <SectionHeader sectionTitle="Talks" />
       <section>
         <h3>JAK CZYTAĆ I PISAĆ DOKUMENTACJĘ OPROGRAMOWANIA</h3>
         <h4>PYLIGHT WARSAW #18</h4>

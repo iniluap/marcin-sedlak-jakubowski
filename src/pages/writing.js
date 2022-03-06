@@ -1,9 +1,10 @@
 import React from 'react';
+import SectionHeader from '../components/SectionHeader';
 
 export default function WritingPage() {
   return (
     <>
-      <h1>Writing samples</h1>
+      <SectionHeader sectionTitle="Writing samples" />
       <h2>
         These are examples of how I use words as a Technical Writer. Use these
         when trying to recruit me. The PDFs show the content as it was at the

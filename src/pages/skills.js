@@ -1,9 +1,10 @@
 import React from 'react';
+import SectionHeader from '../components/SectionHeader';
 
 export default function SkillsPage() {
   return (
     <>
-      <h1>Things I'm good at</h1>
+      <SectionHeader sectionTitle="Things I'm good at" />
       <ul>
         <li>
           <strong>English</strong>– a C2 certificate, BA in Teaching EFL, and

@@ -1,9 +1,10 @@
 import React from 'react';
+import SectionHeader from '../components/SectionHeader';
 
 export default function ArticlesPage() {
   return (
     <>
-      <h1>Articles</h1>
+      <SectionHeader sectionTitle="Articles" />
       <section>
         <h3>
           AUTOR INSTRUKCJI OBSŁUGI. NAUCZYCIEL ALBO TŁUMACZ ŁATWO MOŻE SIĘ

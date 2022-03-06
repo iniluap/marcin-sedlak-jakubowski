@@ -1,9 +1,10 @@
 import React from 'react';
+import SectionHeader from '../components/SectionHeader';
 
 export default function ProjectsPage() {
   return (
     <>
-      <h1>Projects</h1>
+      <SectionHeader sectionTitle="Projects" />
       <section>
         <h3>BENERATOR CUMBERPY</h3>
         <p>
