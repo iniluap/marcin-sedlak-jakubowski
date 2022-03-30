@@ -12,8 +12,9 @@ export default function IndexPage() {
         as an English teacher for five years. Since 2017 I've worked as a
         Technical Writer (currently at{' '}
         <a href="https://about.gitlab.com/" target="_blank">
-          documentation for software.
+          documentation for software
         </a>
+        ).
       </p>
       <p>
         In the meantime, I've volunteered at a non-profit, where I organized
@@ -39,24 +40,22 @@ export default function IndexPage() {
         I care about open-source software, the welfare of humans and other
         animals, and, broadly speaking, building bridges not walls.
       </p>
-      <div>
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/marcin-sedlak-jakubowski-91143a124">
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/manualcookie">Twitter</a>
-          </li>
-          <li>
-            <a href="https://gitlab.com/msedlakjakubowski">GitLab</a>
-          </li>
-          <li>
-            <a href="https://github.com/fdmarcin">GitHub</a>
-          </li>
-        </ul>
-      </div>
+      <ul className="m-top-3 ul--links">
+        <li>
+          <a href="https://www.linkedin.com/in/marcin-sedlak-jakubowski-91143a124">
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/manualcookie">Twitter</a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/msedlakjakubowski">GitLab</a>
+        </li>
+        <li>
+          <a href="https://github.com/fdmarcin">GitHub</a>
+        </li>
+      </ul>
     </>
   );
 }

@@ -33,6 +33,14 @@ const Typography = createGlobalStyle`
   p {
     font-size: 1.4rem;
   }
+
+  .ul--links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-left: 0;
+  }
 `;
 
 export default Typography;

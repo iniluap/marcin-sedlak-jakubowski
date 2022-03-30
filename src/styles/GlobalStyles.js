@@ -29,12 +29,19 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 4vw 4vw 2vw;
-    overflow-x: hidden;
+    padding: 4vw 2vw;
   }
 
   article {
     padding: 3rem 0;
+  }
+
+  .m-top-3 {
+    margin-top: 3rem;;
+  }
+
+  .m-top-4 {
+    margin-top: 4rem;;
   }
 `;
 

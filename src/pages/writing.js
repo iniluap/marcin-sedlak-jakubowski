@@ -7,10 +7,12 @@ const WritingStyles = styled.div`
   .card-wrapper {
     display: grid;
     gap: 5rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 
-    section:first-child {
-      grid-column: 1 / span 2;
+    @media screen and (min-width: 768px) {
+      section:first-child {
+        grid-column: 1 / span 2;
+      }
     }
   }
 `;

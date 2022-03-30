@@ -1,17 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const ResourceLinksStyles = styled.ul`
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  padding-left: 0;
-`;
 
 export default function ResourceLinks({ link1Url, link1, link2Url, link2 }) {
   return (
-    <ResourceLinksStyles>
+    <ul className="ul--links">
       <li>
         <a href={link1Url} target="_blank">
           {link1}
@@ -24,6 +15,6 @@ export default function ResourceLinks({ link1Url, link1, link2Url, link2 }) {
           </a>
         </li>
       )}
-    </ResourceLinksStyles>
+    </ul>
   );
 }

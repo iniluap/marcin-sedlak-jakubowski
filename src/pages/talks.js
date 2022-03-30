@@ -7,7 +7,7 @@ const TalksStyles = styled.div`
   .card-wrapper {
     display: grid;
     gap: 5rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 `;
 
