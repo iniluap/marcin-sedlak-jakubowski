@@ -26,6 +26,19 @@ const Typography = createGlobalStyle`
     }
   }
 
+  .nav-link {
+    display: inline-block;
+    transition: all 0.2s ease-out;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    &:hover {
+      transform: scale(1.1);
+      text-decoration: underline var(--teal);
+      text-decoration-thickness: 0.2rem;
+    }
+  }
+
   .center {
     text-align: center;
   }
@@ -38,12 +51,16 @@ const Typography = createGlobalStyle`
     list-style: square;
   }
 
-  .ul--links {
+  .ul-plain {
+    margin: 0;
+    padding: 0;
     list-style: none;
+  }
+
+  .ul-links {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    padding-left: 0;
   }
 `;
 

@@ -9,10 +9,6 @@ const HeaderStyles = styled.header`
     z-index: 1;
   }
 
-  h2 {
-    font-weight: bold;
-  }
-
   hr {
     height: 2rem;
     width: 100%;

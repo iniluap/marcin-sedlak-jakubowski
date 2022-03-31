@@ -11,7 +11,7 @@ export default function IndexPage() {
         I got my education in teaching English as a foreign language, and worked
         as an English teacher for five years. Since 2017 I've worked as a
         Technical Writer (currently at{' '}
-        <a href="https://about.gitlab.com/" target="_blank">
+        <a href="https://about.gitlab.com/" target="_blank" rel="noreferrer">
           documentation for software
         </a>
         ).
@@ -21,7 +21,7 @@ export default function IndexPage() {
         youth camps and weekend workshops, leading educational exercises on
         human rights, diversity, sustainable development, and peaceful conflict
         resolution. I've also co‑organized{' '}
-        <a href="https://www.pylight.org/" target="_blank">
+        <a href="https://www.pylight.org/" target="_blank" rel="noreferrer">
           PyLight Waw
         </a>
         , a beginner‑friendly Python meetup and have given talks on software
@@ -29,7 +29,11 @@ export default function IndexPage() {
       </p>
       <p>
         No matter my future job title, I'm a{' '}
-        <a href="https://www.writethedocs.org/documentarians/" target="_blank">
+        <a
+          href="https://www.writethedocs.org/documentarians/"
+          target="_blank"
+          rel="noreferrer"
+        >
           documentarian
         </a>
         , a person who cares about documentation and communication in the
@@ -40,7 +44,7 @@ export default function IndexPage() {
         I care about open-source software, the welfare of humans and other
         animals, and, broadly speaking, building bridges not walls.
       </p>
-      <ul className="m-top-3 ul--links">
+      <ul className="m-top-3 ul-plain ul-links">
         <li>
           <a href="https://www.linkedin.com/in/marcin-sedlak-jakubowski-91143a124">
             LinkedIn

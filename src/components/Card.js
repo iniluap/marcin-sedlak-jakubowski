@@ -36,7 +36,7 @@ export default function Card({
     <CardStyles>
       <h3>{title}</h3>
       <h4>{subtitle}</h4>
-      <p class="date">{date}</p>
+      <p className="date">{date}</p>
       <p>{content}</p>
       <ResourceLinks
         link1Url={link1Url}

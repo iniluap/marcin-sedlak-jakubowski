@@ -3,53 +3,53 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 const NavStyles = styled.nav`
-  margin: 3rem 0;
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 
   ul {
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    list-style: none;
-  }
-
-  a {
-    display: inline-block;
-    transition: all 0.2s ease-out;
-    font-size: 1.5rem;
-    text-decoration: none;
-
-    &:hover {
-      transform: scale(1.1);
-      text-decoration: underline var(--teal);
-      text-decoration-thickness: 0.2rem;
-    }
   }
 `;
 
 export default function Nav() {
   return (
     <NavStyles>
-      <ul>
+      <ul className="ul-plain">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className="nav-link">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/skills">Things I'm good at</Link>
+          <Link to="/skills" className="nav-link">
+            Things I'm good at
+          </Link>
         </li>
         <li>
-          <Link to="/talks">Talks</Link>
+          <Link to="/talks" className="nav-link">
+            Talks
+          </Link>
         </li>
         <li>
-          <Link to="/articles">Articles</Link>
+          <Link to="/articles" className="nav-link">
+            Articles
+          </Link>
         </li>
         <li>
-          <Link to="/writing">Writing samples</Link>
+          <Link to="/writing" className="nav-link">
+            Writing samples
+          </Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects" className="nav-link">
+            Projects
+          </Link>
         </li>
       </ul>
     </NavStyles>

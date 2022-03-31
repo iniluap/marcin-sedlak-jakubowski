@@ -36,7 +36,11 @@ export default function WritingPage() {
             <>
               This page describes the features and infrastructure of each cloud
               offering within the{' '}
-              <a href="https://www.microstrategy.com/" target="_blank">
+              <a
+                href="https://www.microstrategy.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 MicroStrategy
               </a>{' '}
               Cloud Platform. The descriptions are visibly divided in style and
@@ -71,7 +75,7 @@ export default function WritingPage() {
           content={
             <>
               While working at{' '}
-              <a href="https://straal.com/pl/" target="_blank">
+              <a href="https://straal.com/pl/" target="_blank" rel="noreferrer">
                 Straal
               </a>
               , I created their end-user documentation from scratch. It contains
@@ -94,7 +98,7 @@ export default function WritingPage() {
           content={
             <>
               While working at{' '}
-              <a href="https://straal.com/pl/" target="_blank">
+              <a href="https://straal.com/pl/" target="_blank" rel="noreferrer">
                 Straal
               </a>
               , I also updated and streamlined their existing API Reference.

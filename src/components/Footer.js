@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const FooterStyles = styled.footer`
+  grid-area: footer;
   text-align: center;
   color: var(--dark-grey);
 `;
