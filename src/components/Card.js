@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import ResourceLinks from './ResourceLinks';
 
 const CardStyles = styled.section`
-  border-bottom: 2px solid var(--blue);
-  box-shadow: 7px 10px 18px -3px var(--grey);
+  border: 2px solid var(--baby-blue);
+  box-shadow: 10px 10px 0px -3px var(--grey);
   padding: 1rem;
 
   h3 {
@@ -12,7 +12,7 @@ const CardStyles = styled.section`
   }
 
   h4 {
-    color: var(--navy);
+    color: var(--blue);
     font-weight: 600;
   }
 

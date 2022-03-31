@@ -10,7 +10,6 @@ const HeaderStyles = styled.header`
   }
 
   h2 {
-    color: var(--navy);
     font-weight: bold;
   }
 

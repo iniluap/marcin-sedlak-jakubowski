@@ -10,7 +10,7 @@ const Typography = createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Zen Kurenaido', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: normal;
     margin: 0;
     line-height: 1.5;
@@ -32,6 +32,10 @@ const Typography = createGlobalStyle`
 
   p {
     font-size: 1.4rem;
+  }
+
+  ul {
+    list-style: square;
   }
 
   .ul--links {
