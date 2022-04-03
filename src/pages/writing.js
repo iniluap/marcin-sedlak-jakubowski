@@ -52,8 +52,10 @@ export default function WritingPage() {
             </>
           }
           link1Url="https://marcin.s-j.me/media/2019-MicroStrategy-Cloud-Platform-(How-to-Select-the-Right-Environment).pdf"
+          link1AltText="Redirect in new tab to this PDF sample"
           link1="PDF (sample)"
           link2Url="https://www2.microstrategy.com/producthelp/Current/Cloud/en-us/Content/select_environ_type.htm"
+          link2AltText="Redirect in new tab to this documentation"
           link2="Live version"
         ></Card>
 
@@ -65,8 +67,10 @@ export default function WritingPage() {
           content="This page provides two simple procedures for starting and stopping a
             cloud environment."
           link1Url="https://marcin.s-j.me/media/2019-MicroStrategy-Cloud-Platform-(How-to-Start-or-Stop-an-Environment).pdf"
+          link1AltText="Redirect in new tab to this PDF sample"
           link1="PDF"
           link2Url="https://www2.microstrategy.com/producthelp/Current/Cloud/en-us/Content/start_stop_environ.htm"
+          link2AltText="Redirect in new tab to this documentation"
           link2="Live version"
         ></Card>
 
@@ -89,8 +93,10 @@ export default function WritingPage() {
             </>
           }
           link1Url="https://marcin.s-j.me/media/2017-Straal-Documentation-(Payment-Methods).pdf"
+          link1AltText="Redirect in new tab to this PDF sample"
           link1="PDF (sample)"
           link2Url="https://docs.straal.com/"
+          link2AltText="Redirect in new tab to this documentation"
           link2="Live version"
         ></Card>
 
@@ -111,8 +117,10 @@ export default function WritingPage() {
             </>
           }
           link1Url="https://marcin.s-j.me/media/2017-Straal-API-Reference-sample.pdf"
+          link1AltText="Redirect in new tab to this PDF sample"
           link1="PDF (sample)"
           link2Url="https://api-reference.straal.com/"
+          link2AltText="Redirect in new tab to this documentation"
           link2="Live version"
         ></Card>
 
@@ -125,8 +133,10 @@ export default function WritingPage() {
             reStructuredText, because it works better than Markdown when uploading
             packages to the Python Package Index."
           link1Url="https://marcin.s-j.me/media/2017-benerator-cumberpy-README.pdf"
+          link1AltText="Redirect in new tab to this PDF sample"
           link1="PDF"
           link2Url="https://github.com/fdmarcin/benerator-cumberpy/blob/master/README.rst"
+          link2AltText="Redirect in new tab to this documentation"
           link2="Live version"
         ></Card>
       </div>

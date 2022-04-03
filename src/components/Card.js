@@ -29,8 +29,10 @@ export default function Card({
   date,
   content,
   link1Url,
+  link1AltText,
   link1,
   link2Url,
+  link2AltText,
   link2,
 }) {
   return (
@@ -41,8 +43,10 @@ export default function Card({
       <p>{content}</p>
       <ResourceLinks
         link1Url={link1Url}
+        link1AltText={link1AltText}
         link1={link1}
         link2Url={link2Url}
+        link2AltText={link2AltText}
         link2={link2}
       ></ResourceLinks>
     </CardStyles>

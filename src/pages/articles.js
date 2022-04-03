@@ -22,6 +22,7 @@ export default function ArticlesPage() {
         content="Article in which I'm quoted describing what the job of a technical
           writer is about."
         link1Url="https://msp.money.pl/wiadomosci/autor-instrukcji-obslugi-nauczyciel-albo-tlumacz-latwo-moze-sie-przekwalifikowac-6356874938795649a.html?fbclid=IwAR3Twm9cFJFQQ1gPz8ifR6b_29SqhsjVq2DWtcUjcLPPfYl2W76Zm4dFErM"
+        link1AltText="Redirect in new tab to this article"
         link1="Article"
       ></Card>
 
@@ -36,6 +37,7 @@ export default function ArticlesPage() {
           day. There are a few more articles on the blog, but I like this one
           the most."
         link1Url="https://6razy7.wordpress.com/2014/11/13/uczac-przez-uczenie/"
+        link1AltText="Redirect in new tab to this article"
         link1="Article"
       ></Card>
     </ArticlesStyles>

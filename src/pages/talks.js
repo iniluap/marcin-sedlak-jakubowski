@@ -29,6 +29,7 @@ export default function TalksPage() {
             </>
           }
           link1Url="https://techwriterkoduje.pl/blog/2020/07/08/tech-writer-pracuje-zdalnie"
+          link1AltText="Redirect in new tab to this podcast"
           link1="Listen"
         ></Card>
 
@@ -41,8 +42,10 @@ export default function TalksPage() {
               approaches, and best practices for clear writing. This was so much
               fun!"
           link1Url="https://youtu.be/vkZpGTvVXAU"
+          link1AltText="Redirect in new tab to this video"
           link1="YouTube"
           link2Url="https://slides.com/marcinse/docs-pl"
+          link2AltText="Redirect in new tab to this presentation file"
           link2="Slides"
         ></Card>
 
@@ -53,8 +56,10 @@ export default function TalksPage() {
           date="February 2019"
           content="An introduction to Git for beginners to programming."
           link1Url="https://www.youtube.com/watch?v=gdUjhFfkofY"
+          link1AltText="Redirect in new tab to this video"
           link1="YouTube"
           link2Url="https://github.com/PyLightMeetup/11-siedlarek-sedlakjakubowski-git-wprowadzenie/blob/master/KS%20i%20MSJ%20-%20Git%20101.pdf"
+          link2AltText="Redirect in new tab to this presentation file"
           link2="Slides"
         ></Card>
 
@@ -66,8 +71,10 @@ export default function TalksPage() {
           content="A Michael Jackson a'capella cover about contributing to open‑source. I
               don't know how it happened, but I had a lot of fun with these folks."
           link1Url="https://www.youtube.com/watch?v=YMEXRBqNTKY"
+          link1AltText="Redirect in new tab to this video"
           link1="YouTube"
           link2Url="https://github.com/vstirbu/writethelirycs"
+          link2AltText="Redirect in new tab to this song's lyrics"
           link2="Lyrics"
         ></Card>
 
@@ -78,6 +85,7 @@ export default function TalksPage() {
           date="September 2018"
           content="A short tale on why solving crosswords together can be fun, especially if you're a word person."
           link1Url="https://youtu.be/YMEXRBqNTKY"
+          link1AltText="Redirect in new tab to this video"
           link1="YouTube"
         ></Card>
 
@@ -90,8 +98,10 @@ export default function TalksPage() {
             technology. Possibly entertaining not only to Polish‑speakers, because
             I make a lot of funny noises to illustrate my point."
           link1Url="https://www.youtube.com/watch?v=W-bm1bLupuc"
+          link1AltText="Redirect in new tab to this video"
           link1="YouTube"
           link2Url="http://slides.com/marcinse/dundry"
+          link2AltText="Redirect in new tab to this presentation file"
           link2="Slides"
         ></Card>
       </div>
