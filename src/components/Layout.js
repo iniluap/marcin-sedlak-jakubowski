@@ -30,11 +30,14 @@ export default function Layout({ children }) {
     <>
       <GlobalStyles />
       <Typography />
+      <a href="#main-content" className="sr-only">
+        Skip to content
+      </a>
       <MobileNav />
       <MainStyles>
         <Header />
         <Nav className="nav" />
-        <ArticleStyles>{children}</ArticleStyles>
+        <ArticleStyles id="main-content">{children}</ArticleStyles>
         <Footer />
       </MainStyles>
     </>

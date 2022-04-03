@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
     --teal: #1aa687;
     --red: #ff414d;
     --baby-blue: #d9ecf2;
-    --blue: #0390bd;
+    --blue: #027397;
   }
 
   * {
@@ -42,6 +42,15 @@ const GlobalStyles = createGlobalStyle`
 
   .m-top-4 {
     margin-top: 4rem;;
+  }
+
+  .sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
   }
 `;
 

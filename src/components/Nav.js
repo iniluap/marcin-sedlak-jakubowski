@@ -11,6 +11,7 @@ const NavStyles = styled.nav`
 
   ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -22,32 +23,48 @@ export default function Nav() {
     <NavStyles>
       <ul className="ul-plain">
         <li>
-          <Link to="/" className="nav-link">
+          <Link to="/" className="nav-link" aria-label="Go to Home page">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/skills" className="nav-link">
+          <Link
+            to="/skills"
+            className="nav-link"
+            aria-label="Go to Things I'm good at page"
+          >
             Things I'm good at
           </Link>
         </li>
         <li>
-          <Link to="/talks" className="nav-link">
+          <Link to="/talks" className="nav-link" aria-label="Go to Talks page">
             Talks
           </Link>
         </li>
         <li>
-          <Link to="/articles" className="nav-link">
+          <Link
+            to="/articles"
+            className="nav-link"
+            aria-label="Go to Articles page"
+          >
             Articles
           </Link>
         </li>
         <li>
-          <Link to="/writing" className="nav-link">
+          <Link
+            to="/writing"
+            className="nav-link"
+            aria-label="Go to Writing samples page"
+          >
             Writing samples
           </Link>
         </li>
         <li>
-          <Link to="/projects" className="nav-link">
+          <Link
+            to="/projects"
+            className="nav-link"
+            aria-label="Go to Projects page"
+          >
             Projects
           </Link>
         </li>
