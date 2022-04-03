@@ -18,6 +18,7 @@ export default function TalksPage() {
       <div className="card-wrapper">
         <Card
           title="Tech Writer pracuje zdalnie, czyli jak to się robi w GitLabie | PL"
+          titleLang="pl"
           subtitle="Tech Writer koduje podcast"
           date="July 2020"
           content={
@@ -33,6 +34,7 @@ export default function TalksPage() {
 
         <Card
           title="Jak czytać i pisać dokumentację oprogramowania | PL"
+          titleLang="pl"
           subtitle="PyLight warsaw #18"
           date="January 2020"
           content="An introduction to the world of software documentation - tools,
@@ -46,6 +48,7 @@ export default function TalksPage() {
 
         <Card
           title="Git – wprowadzenie | PL"
+          titleLang="pl"
           subtitle="PyLight Warsaw #11, with Kasia Siedlarek"
           date="February 2019"
           content="An introduction to Git for beginners to programming."
@@ -57,6 +60,7 @@ export default function TalksPage() {
 
         <Card
           title="Write the lyrics – fork of the repo | EN"
+          titleLang="en"
           subtitle="Lightning talk(?) at write the docs prague 2018"
           date="September 2018"
           content="A Michael Jackson a'capella cover about contributing to open‑source. I
@@ -69,6 +73,7 @@ export default function TalksPage() {
 
         <Card
           title="How crosswords can bring departments together | EN"
+          titleLang="en"
           subtitle="Lightning talk at Write the Docs Prague 2018"
           date="September 2018"
           content="A short tale on why solving crosswords together can be fun, especially if you're a word person."
@@ -78,6 +83,7 @@ export default function TalksPage() {
 
         <Card
           title="Niech to dundry świsną! Programistyczne rozmówki angielsko-polskie | PL"
+          titleLang="pl"
           subtitle="PyLight Warsaw #4"
           date="February 2017"
           content="A guide through the mistakes Polish‑speakers make when speaking about

@@ -16,6 +16,7 @@ export default function ArticlesPage() {
       <Card
         title="Autor instrukcji obsługi. nauczyciel albo tłumacz łatwo może się
           przekwalifikować | PL"
+        titleLang="pl"
         subtitle="money.pl"
         date="March 2019"
         content="Article in which I'm quoted describing what the job of a technical
@@ -26,6 +27,7 @@ export default function ArticlesPage() {
 
       <Card
         title="Ucząc przez uczenie, czyli czego nauczyłem się jako nauczyciel | PL"
+        titleLang="pl"
         subtitle="My personal blog from the past"
         date="2014"
         content="Article I wrote when I was actively teaching, running a blog for a

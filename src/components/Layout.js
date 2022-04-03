@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Footer from './Footer';
 import Header from './Header';
 import Nav from './Nav';
@@ -28,6 +29,19 @@ const ArticleStyles = styled.article`
 export default function Layout({ children }) {
   return (
     <>
+      <Helmet
+        htmlAttributes={{
+          lang: 'en',
+        }}
+      >
+        <meta charSet="utf-8" />
+        <title>Marcin Sędłak-Jakubowski</title>
+        <meta
+          name="description"
+          content="Personal site of Marcin Sędłak-Jakubowski - word geek, technologist, and believer in humans."
+        />
+        <link rel="canonical" href="http://marcin.s-j.me" />
+      </Helmet>
       <GlobalStyles />
       <Typography />
       <a href="#main-content" className="sr-only">

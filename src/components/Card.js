@@ -24,6 +24,7 @@ const CardStyles = styled.section`
 
 export default function Card({
   title,
+  titleLang,
   subtitle,
   date,
   content,
@@ -34,7 +35,7 @@ export default function Card({
 }) {
   return (
     <CardStyles>
-      <h3>{title}</h3>
+      <h3 lang={titleLang}>{title}</h3>
       <h4>{subtitle}</h4>
       <p className="date">{date}</p>
       <p>{content}</p>

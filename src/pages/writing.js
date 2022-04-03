@@ -30,6 +30,7 @@ export default function WritingPage() {
       <div className="card-wrapper">
         <Card
           title="MicroStrategy Cloud Platform documentation"
+          titleLang="en"
           subtitle="End-user docs: infrastructure"
           date="2019"
           content={
@@ -58,6 +59,7 @@ export default function WritingPage() {
 
         <Card
           title="MicroStrategy Cloud Platform documentation"
+          titleLang="en"
           subtitle="End-user docs: procedure"
           date="2019"
           content="This page provides two simple procedures for starting and stopping a
@@ -70,6 +72,7 @@ export default function WritingPage() {
 
         <Card
           title="Straal documentation"
+          titleLang="en"
           subtitle="End-user docs"
           date="2017"
           content={
@@ -93,6 +96,7 @@ export default function WritingPage() {
 
         <Card
           title="Straal documentation"
+          titleLang="en"
           subtitle="API reference"
           date="2017"
           content={
@@ -114,6 +118,7 @@ export default function WritingPage() {
 
         <Card
           title="Benerator Cumberpy"
+          titleLang="en"
           subtitle="readme"
           date="2017"
           content="This is a README of my silly Python package. I wrote it in
