@@ -17,7 +17,7 @@ const MainStyles = styled.main`
     'nav'
     'content'
     'footer';
-  gap: 2rem;
+  gap: var(--whitespace-primary);
   align-items: start;
 `;
 

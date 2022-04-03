@@ -60,7 +60,7 @@ const Typography = createGlobalStyle`
   .ul-links {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: var(--whitespace-primary);
   }
 `;
 

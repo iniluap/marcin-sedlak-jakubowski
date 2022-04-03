@@ -19,10 +19,10 @@ export default function ProjectsPage() {
       </section>
 
       <section className="m-top-4">
-        <h3>Where in the world is the iss?</h3>
+        <h3>Where in the world is the ISS?</h3>
         <p>
-          A Python package to print the current location of the ISS. Currently
-          uses NumPy and SciPy, so pretty heavy.
+          A Python package to print the current location of the International
+          Space Station. Currently uses NumPy and SciPy, so pretty heavy.
         </p>
         <ResourceLinks
           link1Url="https://github.com/fdmarcin/whereiss"

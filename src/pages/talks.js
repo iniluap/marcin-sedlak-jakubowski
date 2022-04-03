@@ -68,7 +68,7 @@ export default function TalksPage() {
         ></Card>
 
         <Card
-          title="How crosswords can bring departments together"
+          title="How crosswords can bring departments together | EN"
           subtitle="Lightning talk at Write the Docs Prague 2018"
           date="September 2018"
           content="A short tale on why solving crosswords together can be fun, especially if you're a word person."

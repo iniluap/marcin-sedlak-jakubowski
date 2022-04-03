@@ -7,7 +7,7 @@ export default function SkillsPage() {
       <SectionHeader sectionTitle="Things I'm good at" />
       <ul>
         <li>
-          <strong>English</strong>– a C2 certificate, BA in Teaching EFL, and
+          <strong>English</strong> – a C2 certificate, BA in Teaching EFL, and
           experience in technical writing
         </li>
         <li>

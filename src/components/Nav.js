@@ -14,7 +14,7 @@ const NavStyles = styled.nav`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: var(--whitespace-secondary);
   }
 `;
 

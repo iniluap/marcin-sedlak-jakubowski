@@ -37,11 +37,11 @@ const MobileNavStyles = styled.nav`
 const MobileNavTriggerStyle = styled.a`
   width: auto;
   height: auto;
-  padding: 2rem;
+  padding: var(--whitespace-primary);
   border: none;
   position: fixed;
   right: 0;
-  top: 2rem;
+  top: var(--whitespace-primary);
   background: none;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);

@@ -10,6 +10,8 @@ const GlobalStyles = createGlobalStyle`
     --red: #ff414d;
     --baby-blue: #d9ecf2;
     --blue: #027397;
+    --whitespace-primary: 2rem;
+    --whitespace-secondary: 3rem;
   }
 
   * {
@@ -33,15 +35,15 @@ const GlobalStyles = createGlobalStyle`
   }
 
   article {
-    padding: 3rem 0;
+    padding: var(--whitespace-secondary) 0;
   }
 
   .m-top-3 {
-    margin-top: 3rem;;
+    margin-top: var(--whitespace-secondary);
   }
 
   .m-top-4 {
-    margin-top: 4rem;;
+    margin-top: 4rem;
   }
 
   .sr-only {
