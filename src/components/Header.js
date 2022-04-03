@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const HeaderStyles = styled.header`
   h1 {
-    font-size: 7vw;
+    font-size: clamp(3rem, 7vw, 5rem);
     margin: 0.5rem 0;
     position: relative;
     z-index: 1;

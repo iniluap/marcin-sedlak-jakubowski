@@ -1,4 +1,24 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faLinkedinIn,
+  faTwitter,
+  faGitlab,
+  faGithub,
+} from '@fortawesome/free-brands-svg-icons';
+import styled from 'styled-components';
+
+const SocialLinksStyles = styled.a`
+  font-size: 2rem;
+
+  &:hover {
+    color: var(--blue);
+  }
+
+  @media screen and (max-width: 767px) {
+    padding: 1rem;
+  }
+`;
 
 export default function IndexPage() {
   return (
@@ -46,18 +66,52 @@ export default function IndexPage() {
       </p>
       <ul className="m-top-3 ul-plain ul-links">
         <li>
-          <a href="https://www.linkedin.com/in/marcin-sedlak-jakubowski-91143a124">
-            LinkedIn
-          </a>
+          <SocialLinksStyles
+            href="https://www.linkedin.com/in/marcin-sedlak-jakubowski-91143a124"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedinIn}
+              title="LinkedIn accout of Marcin Sędłak-Jakubowski"
+            />
+          </SocialLinksStyles>
         </li>
         <li>
-          <a href="https://twitter.com/manualcookie">Twitter</a>
+          <SocialLinksStyles
+            href="https://twitter.com/manualcookie"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faTwitter}
+              title="Twitter accout of Marcin Sędłak-Jakubowski"
+            />
+          </SocialLinksStyles>
         </li>
         <li>
-          <a href="https://gitlab.com/msedlakjakubowski">GitLab</a>
+          <SocialLinksStyles
+            href="https://gitlab.com/msedlakjakubowski"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGitlab}
+              title="GitLab accout of Marcin Sędłak-Jakubowski"
+            />
+          </SocialLinksStyles>
         </li>
         <li>
-          <a href="https://github.com/fdmarcin">GitHub</a>
+          <SocialLinksStyles
+            href="https://github.com/fdmarcin"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              title="GitHub accout of Marcin Sędłak-Jakubowski"
+            />
+          </SocialLinksStyles>
         </li>
       </ul>
     </>

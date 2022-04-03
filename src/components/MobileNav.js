@@ -68,13 +68,13 @@ export default function MobileNav() {
         className="open-trigger"
         onClick={() => (isOpen = true)}
       >
-        <FontAwesomeIcon icon={faBars} />
+        <FontAwesomeIcon icon={faBars} title="Menu open icon" />
       </MobileNavTriggerStyle>
       <MobileNavTriggerStyle
         className="close-trigger"
         onClick={() => (isOpen = false)}
       >
-        <FontAwesomeIcon icon={faXmark} />
+        <FontAwesomeIcon icon={faXmark} title="Menu close icon" />
       </MobileNavTriggerStyle>
       <ul className="ul-plain">
         <MobileNavLiStyled>
