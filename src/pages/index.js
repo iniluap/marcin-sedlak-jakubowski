@@ -12,7 +12,21 @@ const SocialLinksStyles = styled.a`
   font-size: 2rem;
 
   &:hover {
-    color: var(--blue);
+    .fa-linkedin-in {
+      color: #0072b1;
+    }
+
+    .fa-twitter {
+      color: #00acee;
+    }
+
+    .fa-gitlab {
+      color: #fc6d26;
+    }
+
+    .fa-github {
+      color: #171515;
+    }
   }
 
   @media screen and (max-width: 767px) {
